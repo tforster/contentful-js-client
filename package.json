@@ -1,8 +1,8 @@
 {
   "name": "contentful-js-client",
   "version": "0.2.0",
-  "description": "A dependancy free lightweight JavaScript client for Contentful's Content Delivery API",
-  "main": "contentfulJSClient.js",
+  "description": "A dependency free lightweight JavaScript client for Contentful's Content Delivery API",
+  "main": "contentful-js-client.js",
   "scripts": {
     "test": "echo \"See the /test folder for some manually invoked tests.\" && exit 1"
   },

@@ -4,7 +4,7 @@ const config = {
   space: 'r6crsmn3pvic'
 }
 
-const ContentfulClient = new require('../contentfulClient.js');
+const ContentfulClient = new require('../contentful-js-client.js');
 const contentfulClient = new ContentfulClient(config);
 
 contentfulClient.getEntries({ content_type: '7leLzv8hW06amGmke86y8G', fields: {}, include: 3 })

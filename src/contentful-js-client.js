@@ -1,7 +1,7 @@
 /*! license Contentful JS Client. Copyright 2017 Troy Forster https://github.com/tforster/contentful-js-client */
 
 /**
- * Contentful JS Client: A dependancy free lightweight JavaScript client for Contentful's Content Delivery API
+ * Contentful JS Client: A dependency free lightweight JavaScript client for Contentful's Content Delivery API
  */
 
 'use strict';
@@ -188,7 +188,7 @@ class Contentful {
   /**
    * Returns a Promise for an array of entries matching the query. 
    *  
-   * @param {any} query 
+   * @param {object} query 
    * @returns 
    * @memberof Contentful
    */

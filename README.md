@@ -1,6 +1,6 @@
 # Contentful JS Client
 
-A dependancy free lightweight JavaScript client for Contentful's Content Delivery API
+A dependency free lightweight JavaScript client for Contentful's Content Delivery API
 
 Contentful JS Client is a simple and lightweight JavaScript client that is less than 2Kb minified. It has no external
 dependencies and can be used either in the browser or NodeJS. It relies upon window.fetch() or the native request class respectively.
@@ -90,6 +90,10 @@ One feature that will be added soon is support for ordering results.
 * [Visual Studio Code 1.14.1](https://code.visualstudio.com/) on Windows 10
 
 ## Change Log
+
+v0.2.1 ()
+
+* Fixed embarrassing spelling mistake with the word dependency
 
 v0.2.0 (2017-07-26)
 
