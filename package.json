@@ -1,6 +1,6 @@
 {
   "name": "contentful-js-client",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A dependency free lightweight JavaScript client for Contentful's Content Delivery API",
   "main": "contentful-js-client.js",
   "scripts": {
