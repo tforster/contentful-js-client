@@ -1,0 +1,34 @@
+{
+  "name": "contentful-js-client",
+  "version": "0.2.0",
+  "description": "A dependancy free lightweight JavaScript client for Contentful's Content Delivery API",
+  "main": "contentfulJSClient.js",
+  "scripts": {
+    "test": "echo \"See the /test folder for some manually invoked tests.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:tforster/contentful-js-client.git"
+  },
+  "keywords": [
+    "contentful",
+    "cda",
+    "javascript",
+    "client"
+  ],
+  "author": "Troy Forster <troy.forster@gmail.com> (https://www.tforster.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "git@github.com:tforster/contentful-js-client.git/issues"
+  },
+  "homepage": "git@github.com:tforster/contentful-js-client.git#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "gulp": "^3.9.1",
+    "gulp-babili": "^0.1.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.11"
+  }
+}

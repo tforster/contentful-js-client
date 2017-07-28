@@ -1,0 +1,30 @@
+<html>
+
+<head>Browser Test</head>
+
+<body>
+  <h1>Browser Test</h1>
+  <div>
+    <pre id="results" style="white-space: pre-wrap;"></pre>
+  </div>
+  <script src="../contentfulClient.min.js"></script>
+  <script>
+    // Following read-only creds point to a copy of Contentful's sample photo galery
+    const config = {
+      access_token: '0aaf00d1373121cf60bf386add9e16d4d71b92b27ba16fd39d71ce67cf35af81',
+      space: 'r6crsmn3pvic'
+    }
+    
+    const contentfulClient = new Contentful(config);
+
+    contentfulClient.getEntries({ content_type: '7leLzv8hW06amGmke86y8G', fields: {}, include: 3 })
+      .then(galleryItems => {
+        document.getElementById('results').innerHTML = JSON.stringify(galleryItems, null, 2);
+      })
+      .catch(reason => {
+        document.getElementById('results').innerHTML = reason;
+      })
+  </script>
+</body>
+
+</html>
