@@ -7,7 +7,7 @@ const config = {
 const ContentfulClient = new require('../contentful-js-client.js');
 const contentfulClient = new ContentfulClient(config);
 
-contentfulClient.getEntries({ content_type: '7leLzv8hW06amGmke86y8G', fields: {}, include: 3 })
+contentfulClient.getEntries({ content_type: '1xYw5JsIecuGE68mmGMg20', fields: {}, order: '-fields.title', include: 3 })
   .then(galleryItems => {
     console.log(JSON.stringify(galleryItems, null, 2));
   })

@@ -91,9 +91,14 @@ One feature that will be added soon is support for ordering results.
 
 ## Change Log
 
-v0.2.1 ()
+v0.2.2 (2017-07-29)
+
+* Added simple ordering capability with `order: '-fields.{field-name}'` syntax
+
+v0.2.1 (2017-07-28)
 
 * Fixed embarrassing spelling mistake with the word dependency
+* Fixed mismatched names between package.json and the final output file
 
 v0.2.0 (2017-07-26)
 

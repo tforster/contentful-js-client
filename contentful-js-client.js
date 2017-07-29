@@ -1,4 +1,4 @@
-/*! license Contentful JS Client. Copyright 2017 Troy Forster https://github.com/tforster/contentful-js-client */
+/*! license Contentful JS Client v0.2.2. Copyright 2017 Troy Forster https://github.com/tforster/contentful-js-client */
 
 /**
  * Contentful JS Client: A dependency free lightweight JavaScript client for Contentful's Content Delivery API
@@ -173,7 +173,7 @@ class Contentful {
     }
 
     if (query.order) {
-      console.warn('query.order not yet implemented');
+      url = url + `&order=${query.order}`
     }
 
     // Window === 'undefined' means this is not a browser so assume Node
@@ -188,7 +188,7 @@ class Contentful {
   /**
    * Returns a Promise for an array of entries matching the query. 
    *  
-   * @param {any} query 
+   * @param {object} query 
    * @returns 
    * @memberof Contentful
    */
