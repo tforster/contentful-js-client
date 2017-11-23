@@ -18,7 +18,7 @@ _* Babel ESLint and Babili are used for linting and minification respectively bu
 __Why?__
 
 Contentful provides a rock solid [JavaScript client](https://github.com/contentful/contentful.js) with broad feature set. However, it does far more
-than I need for most of my Contenful driven applications and at 77Kb for the minified version is actually missing what I consider to be a critical
+than I need for most of my Contenful driven applications and at 43Kb for the minified version is actually missing what I consider to be a critical
 feature; denormalizing returned results. By contrast Contentful JS Client is under 2Kb minified, can retrieve entries with modest query requirements and automatically denormalizes data.
 
 ## Installation and Usage
